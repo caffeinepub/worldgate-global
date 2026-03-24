@@ -53,8 +53,8 @@ const COUNTRIES = [
 ];
 
 const STATS = [
-  { number: "10,000+", label: "Visa Approvals" },
-  { number: "15+", label: "Years Experience" },
+  { number: "500+", label: "Visa Approvals" },
+  { number: "5", label: "Years Experience" },
   { number: "50+", label: "Countries Served" },
   { number: "98%", label: "Success Rate" },
 ];
@@ -62,7 +62,7 @@ const STATS = [
 const FLOATING_CARDS = [
   {
     icon: "✅",
-    label: "10,000+ Visas Approved",
+    label: "500+ Visas Approved",
     bg: "bg-gold",
     text: "text-navy",
     rotate: "rotate-3",
@@ -80,7 +80,7 @@ const FLOATING_CARDS = [
   },
   {
     icon: "🏆",
-    label: "15+ Years Experience",
+    label: "5 Years Experience",
     bg: "bg-navy",
     text: "text-gold",
     rotate: "-rotate-2",
@@ -141,7 +141,7 @@ export default function Home() {
                 </span>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
                   Your Trusted Partner for{" "}
-                  <span className="text-gold">Global Visas</span>
+                  <span className="text-white">Global Visas</span>
                   {" & "}Immigration
                 </h1>
                 <p className="text-white/80 text-lg mb-8 leading-relaxed">
@@ -359,8 +359,8 @@ export default function Home() {
               <div className="space-y-4">
                 {[
                   {
-                    title: "15+ Years of Experience",
-                    desc: "Decades of expertise in immigration and visa consultancy.",
+                    title: "5 Years of Experience",
+                    desc: "Years of expertise in immigration and visa consultancy.",
                   },
                   {
                     title: "98% Visa Approval Rate",

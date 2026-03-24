@@ -39,21 +39,22 @@ export default function Header() {
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center gap-0 flex-shrink-0"
+              className="flex items-center flex-shrink-0"
               data-ocid="nav.link"
             >
               <img
                 src="/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png"
                 alt="WorldGate Global Logo"
-                className="w-16 h-16 object-contain"
+                className="w-32 h-32 object-contain"
+                style={{ marginRight: "-18px" }}
               />
               <div className="flex flex-col leading-tight">
-                <span className="text-white font-bold text-lg leading-none">
-                  WorldGate
+                <span className="font-bold text-lg leading-none">
+                  <span className="text-gold">WorldGate</span>
                   <span className="text-gold"> Global</span>
                 </span>
-                <span className="text-white/60 text-[10px] uppercase tracking-widest">
-                  Immigration & Visa
+                <span className="text-white text-[10px] uppercase tracking-widest">
+                  Immigration & Visa Services
                 </span>
               </div>
             </Link>

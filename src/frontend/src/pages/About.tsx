@@ -71,7 +71,7 @@ export default function About() {
               Immigration Partner
             </h1>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              Since 2009, we have guided over 10,000 individuals and families
+              Since 2021, we have guided over 500 individuals and families
               toward their international dreams with integrity and expertise.
             </p>
           </motion.div>
@@ -102,7 +102,7 @@ export default function About() {
                 Our Story
               </span>
               <h2 className="text-3xl font-bold text-navy mt-2 mb-4">
-                Turning International Dreams into Reality Since 2009
+                Turning International Dreams into Reality Since 2021
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 WorldGate Global was founded with a single mission: to make
@@ -231,7 +231,7 @@ export default function About() {
             {[
               {
                 icon: TrendingUp,
-                number: "10,000+",
+                number: "500+",
                 label: "Successful Cases",
               },
               { icon: Globe, number: "50+", label: "Countries" },

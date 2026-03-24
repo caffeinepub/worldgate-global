@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Globe, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
 const SOCIAL_LINKS = [
@@ -19,16 +19,23 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
-                <Globe className="w-6 h-6 text-navy" />
-              </div>
-              <div>
+            <div
+              className="flex items-center mb-4"
+              style={{ marginLeft: "-12px" }}
+            >
+              <img
+                src="/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png"
+                alt="WorldGate Global Logo"
+                className="w-20 h-20 object-contain flex-shrink-0"
+                style={{ marginRight: "-8px" }}
+              />
+              <div className="flex flex-col leading-tight">
                 <div className="font-bold text-lg leading-none">
-                  WorldGate<span className="text-gold"> Global</span>
+                  <span className="text-gold">WorldGate</span>
+                  <span className="text-gold"> Global</span>
                 </div>
-                <div className="text-white/50 text-[10px] uppercase tracking-widest">
-                  Immigration & Visa
+                <div className="text-white text-[10px] uppercase tracking-widest">
+                  Immigration & Visa Services
                 </div>
               </div>
             </div>
