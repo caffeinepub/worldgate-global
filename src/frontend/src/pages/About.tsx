@@ -2,6 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, CheckCircle, Globe, TrendingUp, Users } from "lucide-react";
 import { motion } from "motion/react";
 
+const ABOUT_OFFICE_IMG = "/assets/generated/about-office.dim_800x600.jpg";
+
 const VALUES = [
   {
     icon: CheckCircle,
@@ -71,7 +73,7 @@ export default function About() {
               Immigration Partner
             </h1>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
-              Since 2021, we have guided over 500 individuals and families
+              Since 2009, we have guided over 10,000 individuals and families
               toward their international dreams with integrity and expertise.
             </p>
           </motion.div>
@@ -88,7 +90,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <img
-                src="/assets/generated/about-office.dim_800x600.jpg"
+                src={ABOUT_OFFICE_IMG}
                 alt="WorldGate Global Office"
                 className="rounded-2xl w-full object-cover shadow-xl"
               />
@@ -102,7 +104,7 @@ export default function About() {
                 Our Story
               </span>
               <h2 className="text-3xl font-bold text-navy mt-2 mb-4">
-                Turning International Dreams into Reality Since 2021
+                Turning International Dreams into Reality Since 2009
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 WorldGate Global was founded with a single mission: to make
@@ -231,7 +233,7 @@ export default function About() {
             {[
               {
                 icon: TrendingUp,
-                number: "500+",
+                number: "10,000+",
                 label: "Successful Cases",
               },
               { icon: Globe, number: "50+", label: "Countries" },

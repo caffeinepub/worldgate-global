@@ -4,6 +4,8 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import BookingModal from "./BookingModal";
 
+const LOGO_URL = "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png";
+
 const NAV_LINKS = [
   { label: "Home", to: "/" },
   { label: "About Us", to: "/about" },
@@ -43,7 +45,7 @@ export default function Header() {
               data-ocid="nav.link"
             >
               <img
-                src="/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png"
+                src={LOGO_URL}
                 alt="WorldGate Global Logo"
                 className="w-32 h-32 object-contain"
                 style={{ marginRight: "-18px" }}

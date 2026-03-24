@@ -2,6 +2,8 @@ import { Link } from "@tanstack/react-router";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
+const LOGO_URL = "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png";
+
 const SOCIAL_LINKS = [
   { Icon: SiFacebook, href: "https://facebook.com", label: "Facebook" },
   { Icon: SiInstagram, href: "https://instagram.com", label: "Instagram" },
@@ -24,7 +26,7 @@ export default function Footer() {
               style={{ marginLeft: "-12px" }}
             >
               <img
-                src="/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png"
+                src={LOGO_URL}
                 alt="WorldGate Global Logo"
                 className="w-20 h-20 object-contain flex-shrink-0"
                 style={{ marginRight: "-8px" }}

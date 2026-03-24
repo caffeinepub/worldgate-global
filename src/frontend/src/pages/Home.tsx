@@ -15,6 +15,14 @@ import { useRef, useState } from "react";
 import BookingModal from "../components/BookingModal";
 import { useGetBlogPosts, useGetTestimonials } from "../hooks/useQueries";
 
+const ABOUT_OFFICE_IMG = "/assets/generated/about-office.dim_800x600.jpg";
+const HERO_IMG = "/assets/generated/hero-immigration-3d.dim_1400x900.jpg";
+const BLOG_IMAGES = [
+  "/assets/generated/blog-visa-guide.dim_600x400.jpg",
+  "/assets/generated/blog-canada-pr.dim_600x400.jpg",
+  "/assets/generated/blog-germany-card.dim_600x400.jpg",
+];
+
 const SERVICES = [
   {
     icon: Plane,
@@ -53,8 +61,8 @@ const COUNTRIES = [
 ];
 
 const STATS = [
-  { number: "500+", label: "Visa Approvals" },
-  { number: "5", label: "Years Experience" },
+  { number: "10,000+", label: "Visa Approvals" },
+  { number: "15", label: "Years Experience" },
   { number: "50+", label: "Countries Served" },
   { number: "98%", label: "Success Rate" },
 ];
@@ -62,7 +70,7 @@ const STATS = [
 const FLOATING_CARDS = [
   {
     icon: "✅",
-    label: "500+ Visas Approved",
+    label: "10,000+ Visas Approved",
     bg: "bg-gold",
     text: "text-navy",
     rotate: "rotate-3",
@@ -80,7 +88,7 @@ const FLOATING_CARDS = [
   },
   {
     icon: "🏆",
-    label: "5 Years Experience",
+    label: "15+ Years Experience",
     bg: "bg-navy",
     text: "text-gold",
     rotate: "-rotate-2",
@@ -90,11 +98,6 @@ const FLOATING_CARDS = [
 ];
 
 const STAR_INDICES = [0, 1, 2, 3, 4];
-const BLOG_IMAGES = [
-  "/assets/generated/blog-visa-guide.dim_600x400.jpg",
-  "/assets/generated/blog-canada-pr.dim_600x400.jpg",
-  "/assets/generated/blog-germany-card.dim_600x400.jpg",
-];
 
 export default function Home() {
   const [bookingOpen, setBookingOpen] = useState(false);
@@ -114,16 +117,16 @@ export default function Home() {
       <div ref={heroRef} className="relative min-h-screen overflow-hidden">
         {/* Parallax background */}
         <motion.div
-          className="absolute inset-0 will-change-transform"
-          style={{
-            backgroundImage:
-              "url('/assets/generated/hero-immigration-3d.dim_1400x900.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            y: bgY,
-            scale: 1.15,
-          }}
-        />
+          className="absolute inset-0 will-change-transform overflow-hidden"
+          style={{ scale: 1.15 }}
+        >
+          <motion.img
+            src={HERO_IMG}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover object-center"
+            style={{ y: bgY }}
+          />
+        </motion.div>
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/70 to-transparent" />
 
@@ -359,8 +362,8 @@ export default function Home() {
               <div className="space-y-4">
                 {[
                   {
-                    title: "5 Years of Experience",
-                    desc: "Years of expertise in immigration and visa consultancy.",
+                    title: "15+ Years of Experience",
+                    desc: "Over a decade of expertise in immigration and visa consultancy.",
                   },
                   {
                     title: "98% Visa Approval Rate",
@@ -397,7 +400,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <img
-                src="/assets/generated/about-office.dim_800x600.jpg"
+                src={ABOUT_OFFICE_IMG}
                 alt="Immigration consultancy office"
                 className="rounded-2xl w-full object-cover shadow-2xl"
               />
