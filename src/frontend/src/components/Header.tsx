@@ -4,7 +4,8 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import BookingModal from "./BookingModal";
 
-const LOGO_URL = "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png";
+const LOGO_URL =
+  "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png?v=2";
 
 const NAV_LINKS = [
   { label: "Home", to: "/" },
@@ -41,14 +42,13 @@ export default function Header() {
             {/* Logo */}
             <Link
               to="/"
-              className="flex items-center flex-shrink-0"
+              className="flex items-center gap-2 flex-shrink-0"
               data-ocid="nav.link"
             >
               <img
                 src={LOGO_URL}
                 alt="WorldGate Global Logo"
-                className="w-32 h-32 object-contain"
-                style={{ marginRight: "-18px" }}
+                className="h-14 w-14 object-contain"
               />
               <div className="flex flex-col leading-tight">
                 <span className="font-bold text-lg leading-none">

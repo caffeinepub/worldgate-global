@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, CheckCircle, Globe, TrendingUp, Users } from "lucide-react";
 import { motion } from "motion/react";
 
-const ABOUT_OFFICE_IMG = "/assets/generated/about-office.dim_800x600.jpg";
+const ABOUT_OFFICE_IMG = "/assets/generated/about-office.dim_800x600.jpg?v=2";
 
 const VALUES = [
   {

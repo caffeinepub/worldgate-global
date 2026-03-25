@@ -5,11 +5,11 @@ import { motion } from "motion/react";
 import { Category } from "../backend.d";
 import { useGetBlogPosts } from "../hooks/useQueries";
 
-const BLOG_IMAGES: Record<number, string> = {
-  0: "/assets/generated/blog-visa-guide.dim_600x400.jpg",
-  1: "/assets/generated/blog-canada-pr.dim_600x400.jpg",
-  2: "/assets/generated/blog-germany-card.dim_600x400.jpg",
-};
+const BLOG_IMAGES: string[] = [
+  "/assets/generated/blog-visa-guide.dim_600x400.jpg?v=2",
+  "/assets/generated/blog-canada-pr.dim_600x400.jpg?v=2",
+  "/assets/generated/blog-germany-card.dim_600x400.jpg?v=2",
+];
 
 const CATEGORY_LABELS: Record<string, string> = {
   [Category.visa]: "Visa Tips",
