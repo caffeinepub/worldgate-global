@@ -2,8 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
-const LOGO_URL =
-  "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png?v=2";
+const LOGO_URL = "/assets/logo.png";
 
 const SOCIAL_LINKS = [
   { Icon: SiFacebook, href: "https://facebook.com", label: "Facebook" },

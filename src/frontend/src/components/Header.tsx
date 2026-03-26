@@ -4,8 +4,7 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import BookingModal from "./BookingModal";
 
-const LOGO_URL =
-  "/assets/uploads/ChatGPT-Image-Mar-18-2026-03_26_41-PM-1.png?v=2";
+const LOGO_URL = "/assets/logo.png";
 
 const NAV_LINKS = [
   { label: "Home", to: "/" },

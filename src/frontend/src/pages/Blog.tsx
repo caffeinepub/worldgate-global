@@ -6,9 +6,9 @@ import { Category } from "../backend.d";
 import { useGetBlogPosts } from "../hooks/useQueries";
 
 const BLOG_IMAGES: string[] = [
-  "/assets/generated/blog-visa-guide.dim_600x400.jpg?v=2",
-  "/assets/generated/blog-canada-pr.dim_600x400.jpg?v=2",
-  "/assets/generated/blog-germany-card.dim_600x400.jpg?v=2",
+  "/assets/blog-visa-guide.dim_600x400.jpg",
+  "/assets/blog-canada-pr.dim_600x400.jpg",
+  "/assets/blog-germany-card.dim_600x400.jpg",
 ];
 
 const CATEGORY_LABELS: Record<string, string> = {

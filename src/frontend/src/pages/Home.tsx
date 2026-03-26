@@ -15,12 +15,12 @@ import { useRef, useState } from "react";
 import BookingModal from "../components/BookingModal";
 import { useGetBlogPosts, useGetTestimonials } from "../hooks/useQueries";
 
-const HERO_IMG = "/assets/generated/hero-immigration-3d.dim_1400x900.jpg?v=2";
-const ABOUT_OFFICE_IMG = "/assets/generated/about-office.dim_800x600.jpg?v=2";
+const HERO_IMG = "/assets/hero-immigration-3d.dim_1400x900.jpg";
+const ABOUT_OFFICE_IMG = "/assets/about-office.dim_800x600.jpg";
 const BLOG_IMAGES = [
-  "/assets/generated/blog-visa-guide.dim_600x400.jpg?v=2",
-  "/assets/generated/blog-canada-pr.dim_600x400.jpg?v=2",
-  "/assets/generated/blog-germany-card.dim_600x400.jpg?v=2",
+  "/assets/blog-visa-guide.dim_600x400.jpg",
+  "/assets/blog-canada-pr.dim_600x400.jpg",
+  "/assets/blog-germany-card.dim_600x400.jpg",
 ];
 
 const SERVICES = [

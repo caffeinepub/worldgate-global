@@ -9,7 +9,7 @@ const COUNTRIES = [
   {
     name: "Canada",
     flag: "🇨🇦",
-    image: "/assets/generated/country-canada.dim_400x300.jpg?v=2",
+    image: "/assets/country-canada.dim_400x300.jpg",
     desc: "Canada is one of the most welcoming countries for immigrants, offering multiple pathways to permanent residency through Express Entry, Provincial Nominee Programs, and more.",
     visas: [
       "Tourist Visa (TRV)",
@@ -23,7 +23,7 @@ const COUNTRIES = [
   {
     name: "United Kingdom",
     flag: "🇬🇧",
-    image: "/assets/generated/country-uk.dim_400x300.jpg?v=2",
+    image: "/assets/country-uk.dim_400x300.jpg",
     desc: "The UK offers excellent opportunities for skilled workers, students, and families. With the Skilled Worker visa and Graduate Route, the UK is highly accessible for qualified Indians.",
     visas: [
       "Visitor Visa",
@@ -37,7 +37,7 @@ const COUNTRIES = [
   {
     name: "Ireland",
     flag: "🇮🇪",
-    image: "/assets/generated/country-ireland.dim_400x300.jpg?v=2",
+    image: "/assets/country-ireland.dim_400x300.jpg",
     desc: "Ireland is an English-speaking EU member with booming tech and pharmaceutical industries. Its Critical Skills Employment Permit is ideal for qualified professionals.",
     visas: [
       "Tourist Visa",
@@ -50,7 +50,7 @@ const COUNTRIES = [
   {
     name: "Europe",
     flag: "🇪🇺",
-    image: "/assets/generated/country-europe.dim_400x300.jpg?v=2",
+    image: "/assets/country-europe.dim_400x300.jpg",
     desc: "Europe offers diverse immigration pathways across 27 EU countries. Germany, Netherlands, France and others actively recruit skilled workers through various programs.",
     visas: [
       "Schengen Tourist Visa",
@@ -64,7 +64,7 @@ const COUNTRIES = [
   {
     name: "USA",
     flag: "🇺🇸",
-    image: "/assets/generated/country-usa.dim_400x300.jpg?v=2",
+    image: "/assets/country-usa.dim_400x300.jpg",
     desc: "The United States remains a top destination for professionals, students, and families. We assist with B1/B2 visitor visas, H-1B work visas, and green card applications.",
     visas: [
       "B1/B2 Visitor Visa",
@@ -78,7 +78,7 @@ const COUNTRIES = [
   {
     name: "Australia",
     flag: "🇦🇺",
-    image: "/assets/generated/country-australia.dim_400x300.jpg?v=2",
+    image: "/assets/country-australia.dim_400x300.jpg",
     desc: "Australia actively invites skilled migrants through its SkillSelect system. The 189 Skilled Independent visa and 190 State Nomination visas are popular pathways for Indians.",
     visas: [
       "Tourist Visa (600)",
@@ -92,7 +92,7 @@ const COUNTRIES = [
   {
     name: "Gulf Countries",
     flag: "🇦🇪",
-    image: "/assets/generated/country-gulf.dim_400x300.jpg?v=2",
+    image: "/assets/country-gulf.dim_400x300.jpg",
     desc: "The Gulf region offers abundant employment opportunities across construction, hospitality, healthcare, and tech. UAE, Saudi Arabia, Qatar, Kuwait and Oman are key destinations.",
     visas: [
       "UAE Employment Visa",
